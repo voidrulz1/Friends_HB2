@@ -659,11 +659,11 @@ function getRandomIntInclusive(min, max) {
 //#endregion
 
 function loginHangbots() {
-  var h1 = new Hangbot(process.env.BOT1, "bot345");
-  var h2 = new Hangbot(process.env.BOT2, "bot345");
-  var h3 = new Hangbot(process.env.BOT3, "bot345");
-  var h4 = new Hangbot(process.env.BOT4, "bot345");
-  var h5 = new Hangbot(process.env.BOT5, "bot345");
+  var h1 = new Hangbot(process.env.BOT1, "Iaminhell8*");
+  var h2 = new Hangbot(process.env.BOT2, "Iaminhell8*");
+  var h3 = new Hangbot(process.env.BOT3, "Iaminhell8*");
+  var h4 = new Hangbot(process.env.BOT4, "Iaminhell8*");
+  var h5 = new Hangbot(process.env.BOT5, "Iaminhell8*");
 
 }
 
