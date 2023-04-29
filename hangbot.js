@@ -1,5 +1,17 @@
-//#region 
 "use strict";
+
+require('dotenv').config();
+
+var fs = require('fs');
+var WebSocket = require("ws");
+const readline = require("readline");
+const { triggerAsyncId } = require("async_hooks");
+const { resolve } = require('path');
+
+
+
+//#region 
+
 var __awaiter =
   (this && this.__awaiter) ||
   function(thisArg, _arguments, P, generator) {
@@ -144,15 +156,6 @@ var __spreadArray =
 //#endregion
 
 exports.__esModule = true;
-
-var fs = require('fs');
-var WebSocket = require("ws");
-
-const readline = require("readline");
-const { triggerAsyncId } = require("async_hooks");
-const { resolve } = require('path');
-const { response } = require('express');
-const dotenv = require('dotenv').config();
 
 
 
